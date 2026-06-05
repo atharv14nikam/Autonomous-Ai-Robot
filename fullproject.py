@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-"""
-hybrid_face_robot.py
-Merged: Hybrid AI Robot (Vosk + Ollama + OpenRouter + Piper) + 5" face GUI (pygame)
-
-Controls (while Pygame window is focused):
- - ENTER / RETURN : start voice listen -> process -> reply (TTS)
- - ESC or Q       : quit
-
-Notes:
- - Make sure your VOSK model path, PIPER model path and OPENROUTER_API_KEY in .env are correct.
- - This script runs the AI loop in a background thread; Pygame runs on main thread.
- - Requires: pygame, sounddevice, vosk, requests, numpy, scipy, python-dotenv, piper package
-"""
 
 import os
 import sys
